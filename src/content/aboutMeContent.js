@@ -1,5 +1,5 @@
 export const aboutMeContent = `
-Hey there! 👋
+Hey there! 👋 A little bit about me.
  
 I'm Jerry Torres, born and raised in Chicago's Little Village neighborhood. 
 
@@ -9,5 +9,5 @@ My influences and preferences draw heavily from styles such as L.A. and Cuban �
 
 Whether you're just starting out or you've been dancing for years, I believe we're all students of this beautiful dance. Let's learn, laugh, and grow together – because that's what makes the Salsa community special!
 
-Ready to dance? Let's make it happen! 😎
+Ready to dance? Let's make it happen! 😁
 `
