@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  p {
+    @apply font-body text-white/90 leading-relaxed; 
+  }
+}
+
 /* Remove default spacing */
 body, #root {
   margin: 0;

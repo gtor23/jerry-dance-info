@@ -1,7 +1,11 @@
-const App = () => {
+import { AboutMe } from './index'
+
+function App() {
     return (
         <div className="min-h-screen flex items-center justify-center">
-            {/* Content goes here */}
+            <main>
+                <AboutMe />
+            </main>
         </div>
     )
 }
