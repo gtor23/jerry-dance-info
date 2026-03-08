@@ -1,4 +1,4 @@
-import { Hero, AboutMe } from './index'
+import { Hero, AboutMe, ContactMe } from './index'
 
 function App() {
     return (
@@ -6,6 +6,7 @@ function App() {
             <main>
                 <Hero />
                 <AboutMe />
+                <ContactMe />
             </main>
         </div>
     )
