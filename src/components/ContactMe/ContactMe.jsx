@@ -3,8 +3,8 @@ import { InstagramIcon } from "../../assets/SVGs"
 
 export default function ContactMe() {
     return (
-        <section className="section-contact-me bg-[rgba(0,0,0,0.5)] py-16 px-8 md:px-24 rounded-2xl">
-            <div className="max-w-screen flex flex-col items-center">
+        <section className="section-contact-me min-h-screen flex items-center">
+            <div className="bg-[rgba(0,0,0,0.5)] max-w-screen flex flex-col items-center py-16 px-8 md:px-24 rounded-2xl">
                 <h2>Get In Touch</h2>
                 <p className="get-in-touch text-center" style={{ whiteSpace: 'pre-line' }}>
                     {getInTouchContent}
