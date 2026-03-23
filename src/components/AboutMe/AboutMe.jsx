@@ -1,5 +1,4 @@
 import { aboutMeContent } from '../../content/aboutMeContent';
-import socialDanceGif from '../../../public/gif/social_dance.gif';
 
 export default function AboutMe() {
     return (
@@ -17,7 +16,7 @@ export default function AboutMe() {
                 <div className="w-full max-w-[12.5rem] md:max-w-[15rem] flex-shrink-0 self-center md:self-start xl:self-center">
                     <div className="relative aspect-[9/16] rounded-xl overflow-hidden border-[3px] border-white/10 bg-neutral-900">
                         <img 
-                            src={socialDanceGif} 
+                            src={`${import.meta.env.BASE_URL}gif/social_dance.gif`} 
                             alt="Dance Reel" 
                             className="w-full h-full object-cover brightness-95 hover:brightness-100 transition-all duration-300"
                             loading="lazy"
