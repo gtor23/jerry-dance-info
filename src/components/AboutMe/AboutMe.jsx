@@ -2,7 +2,7 @@ import { aboutMeContent } from '../../content/aboutMeContent';
 
 export default function AboutMe() {
     return (
-        <section className="min-h-screen flex items-center max-[380px]:mb-8 sm:mb-0">
+        <section id="about" className="min-h-screen flex items-center max-[390px]:mb-8">
             <div className="bg-[rgba(0,0,0,0.5)] flex flex-col-reverse md:flex-row items-center gap-10 md:gap-12 py-16 px-8 md:px-24 rounded-2xl">        
                 <div className="flex-1 w-full">
                     <h2 className="mb-6 text-white pb-2 text-center md:text-left">
